@@ -26,6 +26,20 @@ operations. Depending on which Dockerfile you use, the relevant (server or clien
 
 GlusterFS packages are pre-installed in the container, ready to go!
 
+Pre-Requisites
+--------------
+
+1) An OS that can act as docker host
+
+This was tested on Fedora 21 VM
+
+2) Install `docker-io` RPM package on the host
+
+`docker-io` package provides the `docker` utility thats used in the Steps section below
+Google for & install the appropriate package if you are using other OS
+
+3) NOTE: Physical machine or a VM, either can be used as a docker host
+
 Steps
 -----
 
@@ -48,7 +62,7 @@ Builds the client image
 
 5) ```docker run -d --privileged=true glusterfs-docker```
 
-This create a container that can act as a GlusterFS server node.
+This creates a container that can act as a GlusterFS server node.
 
 Run this cmd as many times, as many server node(s) you need, thus creating as many
 containers (1 for each server node)
