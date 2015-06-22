@@ -36,6 +36,7 @@ This was tested on Fedora 21 VM
 2) Install `docker-io` RPM package on the host
 
 `docker-io` package provides the `docker` utility thats used in the Steps section below
+
 Google for & install the appropriate package if you are using other OS
 
 3) NOTE: Physical machine or a VM, either can be used as a docker host
