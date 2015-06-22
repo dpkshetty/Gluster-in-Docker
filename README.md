@@ -45,7 +45,7 @@ Steps
 
 (Prefix 'sudo' to the docker specific steps below, if running as non-root)
 
-1) ```git clone -b use-gluster-binaries https://github.com/dpkshetty/Gluster-in-Docker```
+1) ```git clone https://github.com/dpkshetty/Gluster-in-Docker```
 
 This clones the branch 'use-gluster-binaries' that has the server and client
 Dockerfiles.
