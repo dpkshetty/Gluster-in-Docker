@@ -48,8 +48,7 @@ Steps
 
 1) ```git clone https://github.com/dpkshetty/Gluster-in-Docker```
 
-This clones the branch 'use-gluster-binaries' that has the server and client
-Dockerfiles.
+Clones this project that has the server and client Dockerfiles.
 
 2) ```cd Gluster-in-Docker```
 
