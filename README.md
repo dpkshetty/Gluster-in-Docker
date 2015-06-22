@@ -44,6 +44,8 @@ Google for & install the appropriate package if you are using other OS
 Steps
 -----
 
+The steps below needs to be done on the docker host (See Pre-Requisites)
+
 (Prefix 'sudo' to the docker specific steps below, if running as non-root)
 
 1) ```git clone https://github.com/dpkshetty/Gluster-in-Docker```
